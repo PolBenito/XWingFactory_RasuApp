@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RASUAPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu"><u>MENÚ PRINCIPAL</u></string>
+    <string name="rasu"><u>REBEL ALLIANCE SYSTEM UPGRADE</u></string>
+    <string name="validation"><u>SISTEMA DE VALIDACIÓ</u></string>
+    <string name="qr"><u>LECTOR CODI QR</u></string>
+    <string name="pieceinfo"><u>INFORMACIÓ DE LA PEÇA</u></string>
+    <string name="enter"><u>ENTRAR</u></string>
+    <string name="user">Usuari</string>
+    <string name="password">Contrasenya</string>
+    <string name="randomverification"><u>VERIFICACIÓ ALEATÒRIA</u></string>
+    <string name="verifynewproduct"><u>VERIFICAR NOU PRODUCTE</u></string>
+    <string name="verifiedproduct"><u><i>Productes Verificats</i></u></string>
+    <string name="downloadpdf">DESCARREGA EL PDF</string>
+    <string name="title_activity_login">login</string>
+</resources>

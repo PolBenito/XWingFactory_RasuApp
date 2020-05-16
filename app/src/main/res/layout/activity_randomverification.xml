@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/pieceinfo"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="300px"
+        android:textColor="#FFFFFF"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:text="@string/randomverification"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="375px"
+        android:layout_marginTop="500px"
+        android:text="@string/verifynewproduct" />
+    <TextView
+        android:id="@+id/piecename"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="800px"
+        android:text="@string/verifiedproduct" />
+    <TextView
+        android:id="@+id/product1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="1000px"
+        android:text="Producte 1" />
+    <TextView
+        android:id="@+id/product2"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="1200px"
+        android:text="Producte 2" />
+    <TextView
+        android:id="@+id/product3"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="1400px"
+        android:text="Producte 3" />
+</RelativeLayout>

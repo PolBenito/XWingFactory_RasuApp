@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="300px"
+        android:textColor="#FFFFFF"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:text="@string/validation"/>
+    <TextView
+        android:id="@+id/pieza1"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="600px"
+        android:onClick="pieceClick"
+        android:text="Peça a Acoblar 1" />
+    <TextView
+        android:id="@+id/pieza2"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="800px"
+        android:text="Peça a Acoblar 2" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="550px"
+        app:srcCompat="@drawable/splashlogo" />
+    <TextView
+        android:id="@+id/rasu"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="600px"
+        android:textColor="#FFFFFF"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:text="@string/rasu"/>
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:hint="Usuari"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275px"
+        android:layout_marginTop="1100px"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:hint="Contrasenya"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275px"
+        android:layout_marginTop="1300px"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="525px"
+        android:layout_marginTop="1600px"
+        android:background="@drawable/mybutton"
+        android:text="@string/enter"
+        android:textStyle="bold"
+        android:gravity="center" />
+</RelativeLayout>

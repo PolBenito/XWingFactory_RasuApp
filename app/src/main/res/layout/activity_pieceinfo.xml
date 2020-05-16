@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/pieceinfo"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="300px"
+        android:textColor="#FFFFFF"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:text="@string/pieceinfo"/>
+    <TextView
+        android:id="@+id/piecename"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="550px"
+        android:layout_marginTop="600px"
+        android:text="descReference" />
+    <TextView
+        android:id="@+id/piececode"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="550px"
+        android:layout_marginTop="850px"
+        android:text="codeReference" />
+    <ImageView
+        android:id="@+id/piecephoto"
+        android:layout_width="400px"
+        android:layout_height="500px"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="1100px"
+        app:srcCompat="@drawable/chesspiece" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="440px"
+        android:layout_marginTop="1800px"
+        android:text="@string/downloadpdf" />
+</RelativeLayout>
